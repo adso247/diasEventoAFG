@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Días para eventos</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Contenedor principal  -->
+    <div id="app">
+      <div class="form">
+        <!-- Este elemento representa un formulario HTML. Los formularios se utilizan para recopilar datos del usuario. -->
+        <form>
+          <!-- Este es un campo de entrada de texto. -->
+          <input type="text" id="eventName" />
+          <!-- Este es un campo de entrada de fecha. -->
+          <input type="date" id="eventDate" />
+          <!-- Con este boton se puede desencadenar una acción en JavaScript. -->
+          <input type="button" id="bAdd" value="Añadir evento" />
+        </form>
+      </div>
+      <!-- Este div se utiliza para contener y mostrar tareas -->
+      <div id="tasksContainer"></div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
